@@ -13,7 +13,7 @@ LABEL "Project"="softsite"
 ENV DEBIAN_FRONTEND=noninteractive
 
 # Updating the package list and installing Apache2 server
-RUN sudo apt update && sudo apt install apache2 -y
+RUN apt update && apt install apache2 -y
 
 # Start the Apache2 server in foreground when the container runs
 CMD ["/usr/sbin/apache2ctl","-D","FOREGROUND"]

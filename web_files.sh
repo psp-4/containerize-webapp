@@ -1,14 +1,3 @@
-# Defining Variables
-URL="https://www.tooplate.com/zip-templates/2132_clean_work.zip"
-ZIP_NAME="2132_clean_work.zip"
-FOLDER_NAME="2132_clean_work"
-PROJECT_FOLDER="cleanImage"
-
-echo "#########################################################"
-echo "Updating Packages Lists & Installing unzip package"
-echo "#########################################################"
-sudo apt update && sudo apt install unzip -y
-
 echo "#########################################################"
 echo "Creating Folder"
 echo "#########################################################"
@@ -34,3 +23,5 @@ tar czvf clean.tar.gz *
 mv clean.tar.gz ../../
 cd ..
 rm -rf "$FOLDER_NAME"
+cd ..
+rm -rf "$PROJECT_FOLDER"
