@@ -28,7 +28,7 @@
 
 7.   To push the image to Dockerhub create a new Docker hub account.
 8.   There create a new repository with a unique name.
-9.   Change directory to the directoryBuild the docker image as the name ```<your_user_name_of_Dockerhub>/<image_name>``` using the command as follows:
+9.   Go to the directory where Dockerfile is present. Build the docker image as the name ```<your_user_name_of_Dockerhub>/<image_name>``` using the command as follows:
 
      ```
      docker build -t <dockerhub_user_name>/<image_name> .
