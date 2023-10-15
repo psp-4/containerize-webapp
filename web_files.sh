@@ -31,5 +31,6 @@ echo "#########################################################"
 echo "Creating tarball & Removing temporary files"
 echo "#########################################################"
 tar czvf clean.tar.gz *
-mv clean.tar.gz ../
+mv clean.tar.gz ../../
+cd ..
 rm -rf "$FOLDER_NAME"
