@@ -1,5 +1,16 @@
+# Defining Variables
+URL="https://www.tooplate.com/zip-templates/2132_clean_work.zip"
+ZIP_NAME="2132_clean_work.zip"
+FOLDER_NAME="2132_clean_work"
+PROJECT_FOLDER="cleanImage"
+
 echo "#########################################################"
-echo "Creating Folder"
+echo "Updating Packages Lists & Installing unzip package"
+echo "#########################################################"
+sudo apt update && sudo apt install unzip -y
+
+echo "#########################################################"
+echo "Creating Temporary Folder"
 echo "#########################################################"
 mkdir "$PROJECT_FOLDER"
 cd "$PROJECT_FOLDER"
