@@ -31,7 +31,7 @@
 9.   Change directory to the directoryBuild the docker image as the name ```<your_user_name_of_Dockerhub>/<image_name>``` using the command as follows:
 
      ```
-     docker build -t <user_name>/<image_name> .
+     docker build -t <dockerhub_user_name>/<image_name> .
      ```
 10.  Login to docker account from terminal using your username and password using the command
     
@@ -41,11 +41,11 @@
 11.  Now push the image to DockerHub using the command
 
       ```
-      docker push <username>/<imagename>:latest
+      docker push <dockerhub_user_name>/<image_name>:latest
       ```
 12.  Now anyone on the internet can use your image by using the command
 
       ```
-      docker pull <username>/<imagename>:latest
+      docker pull <dockerhub_user_name>/<image_name>:latest
       ```
       *(For reference you can use my image by ```docker pull psp4/cleanimg:latest``` from a docker engine)*
