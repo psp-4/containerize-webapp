@@ -23,7 +23,7 @@
      ```
 6.   Check the deployment by the URL ```<your machine IP>:PORT```.
 
-     *(Here the PORT is ```9005``` and you can change it by changing the port mapping in Dockerfile)*
+     *(Here the PORT is ```9005``` and you can change it by changing the port mapping in Dockerscript file)*
 
 
 7.   To push the image to Dockerhub create a new Docker hub account.
